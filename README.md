@@ -5,10 +5,10 @@ Twitter is like a huge gold mine for data analysers. Unlike the other social med
 
 In my program, I import tweepy to get access to twitter's posts and other function of Twitter API. 
 
-#api.home_timeline() could print out my account's timeline of the post. 
+api.home_timeline() could print out my account's timeline of the post. 
 
-#api.update_status() could send a new post using my account
+api.update_status() could send a new post using my account
 
-#api.user_timeline(id= , count= ) allow me to review certain user's latest 'count'th posts.
+api.user_timeline(id= , count= ) allow me to review certain user's latest 'count'th posts.
 
-#api.search(q= ,) and tweepy.Cursor(api.search, q= ) could search for "q" as keyword.
+api.search(q= ,) and tweepy.Cursor(api.search, q= ) could search for "q" as keyword.
