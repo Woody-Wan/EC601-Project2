@@ -5,9 +5,9 @@ Twitter is like a huge gold mine for data analysers. Unlike the other social med
 
 In my program, I import tweepy to get access to twitter's posts and other function of Twitter API. 
 
-api.home_timeline() could print out my account's timeline of the post. 
+api.home_timeline() could print out my account's timeline of the post.  Clearly I don't have any posts.
 
-api.update_status() could send a new post using my account
+api.update_status() could send a new post using my account. My account send a new post: (I delete this post on my twitter.)
 
 api.user_timeline(id= , count= ) allow me to review certain user's latest 'count'th posts.
 
