@@ -1,8 +1,8 @@
 import tweepy
-consumer_key = "u7RcONIw4EVaP1rUh2bHFkOZR"
-consumer_secret = "IoS5LwTGKoJkkI5gvC3GTHZysH2cqOTdKbs3XQ3Rxb8GE8mSVJ"
-access_token = "1440734972394962946-TFX55WWuADSIvnSpkVmKIWbUCnBBxY"
-access_token_secret = "IFyoL38xOpIfhUXQqFRTjU1grNBCNOtrK5APhNKFlWAAK"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
