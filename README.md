@@ -7,8 +7,8 @@ In my program, I import tweepy to get access to twitter's posts and other functi
 
 api.home_timeline() could print out my account's timeline of the post.  Clearly I don't have any posts.
 
-api.update_status() could send a new post using my account. My account send a new post: (I delete this post on my twitter.)
+api.update_status() could send a new post using my account. My account send a new post: hello python (I delete this post on my twitter.).
 
-api.user_timeline(id= , count= ) allow me to review certain user's latest 'count'th posts.
+api.user_timeline(id= , count= ) allow me to review certain user's latest 'count'th posts. I get BU_Tweets's latest 20 posts.
 
-api.search(q= ,) and tweepy.Cursor(api.search, q= ) could search for "q" as keyword.
+api.search(q= ,) and tweepy.Cursor(api.search, q= ) could search for "q" as keyword. I search for Boston University
