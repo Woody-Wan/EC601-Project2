@@ -23,7 +23,7 @@ for tweet in results:
     print(tweet.text)
 
 # Search for certain info in 2 ways
-query = "Toptal"
+query = "Boston"
 language = "en"
 results = api.search(q=query,)
 for tweet in results:
