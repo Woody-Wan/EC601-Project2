@@ -1,3 +1,5 @@
+import os
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=r"path of JSON authorize file"
 from google.cloud import language_v1
 
 def sample_analyze_sentiment(text_content):
