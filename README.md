@@ -1,7 +1,7 @@
 # EC601-Project2
 
-# Phase A Twitter API
-Twitter is like a huge gold mine for data analysers. Unlike the other social media, private and protective，Twitter's posts is open to nearly all users. If I want to grab some data to have some research on it or using method in data science, a large quantity of information from Twitter could be very helpful and benificial. For exmaple, to analyse the public attitude towards a university, I extracting the posts which is related to in recent time period, and then using NLP algorithms analyse them.
+# Phase 1A Twitter API
+Twitter is like a huge gold mine for data analysers. Unlike the other social media, private and protective，Twitter's posts are open to nearly all users. If I want to grab some data to have some research on it or using method in data science, a large quantity of information from Twitter could be very helpful and benificial. For exmaple, to analyse the public attitude towards a university, I extracting the posts which is related to in recent time period, and then using NLP algorithms analyse them.
 
 In my program, I import tweepy to get access to twitter's posts and other function of Twitter API. 
 
@@ -17,7 +17,7 @@ allow me to review certain user's latest 'count'th posts. I get BU_Tweets's late
 `api.search(q= ,)` and `tweepy.Cursor(api.search, q= )`
 could search for "q" as keyword. I search for Boston University
 
-# Phase B Google Natural Language Api
+# Phase 1B Google Natural Language Api
 The Google Natural Language API is an easy-to-use interface to a set of powerful NLP models that have been trained by Google to perform a variety of tasks. Since these models have been trained on a very large corpus of documents, they typically perform well as long as they are used on datasets that do not use very specific languages.The biggest advantage of using these pre-trained models through the API is that no training dataset is required. The API allows the user to start making predictions immediately, which is valuable when there is little labeled data.
 
 The Natural Language API contains five different services.
@@ -74,3 +74,6 @@ def analyze_text_sentiment(text):
     for k, v in results.items():
         print(f"{k:10}: {v}")
 ```
+
+# Phase 2 User Story
+Since Twitter's posts are open to nearly all users, which could be a gread mine of data for people to dig the useful informaion. By accessing Twitter's API, it could allow me to search and pull down pieces of information on certain objects or issues, and then help me to place an assessment on them.
