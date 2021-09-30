@@ -19,12 +19,19 @@ could search for "q" as keyword. I search for Boston University
 
 # Phase B Google Natural Language Api
 The Google Natural Language API is an easy-to-use interface to a set of powerful NLP models that have been trained by Google to perform a variety of tasks. Since these models have been trained on a very large corpus of documents, they typically perform well as long as they are used on datasets that do not use very specific languages.The biggest advantage of using these pre-trained models through the API is that no training dataset is required. The API allows the user to start making predictions immediately, which is valuable when there is little labeled data.
+
 The Natural Language API contains five different services.
+
 *Syntax analysis*
+
 *Sentiment analysis*
+
 *Entity Analysis*
+
 *Entity sentiment analysis*
+
 *Text classification*
+
 
 The Score of the sentiment ranges between -1.0 (negative) and 1.0 (positive) and corresponds to the overall sentiment from the given information.
 
