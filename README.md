@@ -32,6 +32,7 @@ The Natural Language API contains five different services.
 
 *Text classification*
 
+Google's sentiment analysis will provide a mainstream sentiment perspective in the text provided.
 
 The Score of the sentiment ranges between -1.0 (negative) and 1.0 (positive) and corresponds to the overall sentiment from the given information.
 
