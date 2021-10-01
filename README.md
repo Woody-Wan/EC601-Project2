@@ -76,4 +76,6 @@ def analyze_text_sentiment(text):
 ```
 
 # Phase 2 User Story
-Since Twitter's posts are open to nearly all users, which could be a gread mine of data for people to dig the useful informaion. By accessing Twitter's API, it could allow me to search and pull down pieces of information on certain objects or issues, and then help me to place an assessment on them.
+Since Twitter's posts are open to nearly all users, which could be a gread mine of data for people to dig the useful informaion. By accessing Twitter's API, it could allow me to search and pull down pieces of information on certain objects or issues, and then help me to place an assessment on them. In this case, I could use the analyse result to apply in my own app.
+
+I would like to use the Twitter's posts to grade a company or a school, based on the poepel's attitudes and reviews towards it. For example, if I want to invest a company that I do not know much about it, or I just heard of, I want to a much broader way to  
