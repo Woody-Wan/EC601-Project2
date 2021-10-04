@@ -12,10 +12,10 @@ could print out my account's timeline of the post.  Clearly I don't have any pos
 could send a new post using my account. My account send a new post: hello python (I delete this post on my twitter.).
 
 `api.user_timeline(id= , count= )`
-allow me to review certain user's latest 'count'th posts. I get BU_Tweets's latest 20 posts.
+allow me to review certain user's latest 'count' posts. I get BU_Tweets's latest 20 posts. 
 
 `api.search(q= ,)` and `tweepy.Cursor(api.search, q= )`
-could search for "q" as keyword. I search for Boston University
+could search for "q" as keyword. I search for Boston University， and return some posts that related to Boston University. It is like the search funtion in twitter web and app end.
 
 # Phase 1B Google Natural Language Api
 The Google Natural Language API is an easy-to-use interface to a set of powerful NLP models that have been trained by Google to perform a variety of tasks. Since these models have been trained on a very large corpus of documents, they typically perform well as long as they are used on datasets that do not use very specific languages.The biggest advantage of using these pre-trained models through the API is that no training dataset is required. The API allows the user to start making predictions immediately, which is valuable when there is little labeled data.
