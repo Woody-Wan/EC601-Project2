@@ -65,8 +65,6 @@ class StdOutListener(StreamListener):
         if not tweet.startswith('RT'):
             print(tweet)
             analyze(tweet)
-            #with open(fetched_tweets_filename,'a') as tf:
-                #tf.write(result)
         return True
 
     def on_error(self, status):
