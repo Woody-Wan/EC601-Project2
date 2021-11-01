@@ -1,9 +1,8 @@
 import unittest
-from sentiment_analysis import print_result,StdOutListener
-
+import os
+import sentiment_analysis
 
 class TestDemo(unittest.TestCase):
-    """Test mathfuc.py"""
 
     @classmethod
     def setUpClass(cls):
@@ -21,11 +20,11 @@ class TestDemo(unittest.TestCase):
 
     def test_null_print_result(self):
         """Test method print_result"""
-        self.hash_tag_list = ""
-        self.assertTrue(print_result(self.analyze))
+        sentiment_analysis.input = ""
+        self.assertTrue(sentiment_analysis.print_result(sentiment_analysis.analyze))
 
     def test_complex_print_result(self):
         """Test method print_result"""
-        self.hash_tag_list = "┌┍┎┏┐┑┒┓└┕┖┗┘┙┚┛├┝┞┟┠┡┢┣┤┥┦┧┨┩┪┫┬┭┮┯┰┱┲┳┴┵┶┷┸┹┺┻┼┽┾┿╀╁╂╃╄╅╆╇╈╉╊╋╌╍╎╏═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬"
-        a = self.hash_tag_list
-        self.assertTrue(print_result(self.analyze))
+        sentiment_analysis.input = "┌┍┎┏┐┑┒┓└┕┖┗┘┙┚┛├┝┞┟┠┡┢┣┤┥┦┧┨┩┪┫┬┭┮┯┰┱┲┳┴┵┶┷┸┹┺┻┼┽┾┿╀╁╂╃╄╅╆╇╈╉╊╋╌╍╎╏═║╒╓╔╕╖╗╘╙╚╛╜╝╞╟╠╡╢╣╤╥╦╧╨╩╪╫╬"
+        a = sentiment_analysis.hash_tag_list
+        self.assertTrue(sentiment_analysis.print_result(sentiment_analysis.analyze))
