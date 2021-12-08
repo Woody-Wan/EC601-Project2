@@ -84,7 +84,11 @@ For example, if I want to apply for a university that I do not know much about i
 
 In this case, I shall apply the .search() funtion of the API to get the close-related posts and the posts which contain the keyword I search for. Transforming the received data to the form that Google Natural Language API could accept and analyse, then I could get the score and magnitude of each post. By averaging the points that return, I could get an approximate review on the searched object.  
 
-#Completion
+# Completion
 
 To finish my app with mvp funtions, I combine 2 modules that I mentioned before. Getting data from website,  I use the Twitter API, extracting and searching for the keyworads that user requires. Then Twitter API could return the related data to my app. Using Google API, I import Google Natural Language to analyse the message received from Twitter. Google API send back the score and magnitude of each tweets, and to get the overall review on the 'keyword' object, I set the result as an average score of each message.
 ![image](https://user-images.githubusercontent.com/63642698/136701352-b6588112-3506-47d0-9135-9c327b436716.png)
+
+```
+Overall Sentiment: score of 78.6% with magnitude of 78.6%
+```
